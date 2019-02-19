@@ -23,3 +23,7 @@ create table STUDENT (
 );
 
 INSERT INTO university (university_id, name, country) VALUES (1, 'TNPU', 'Ukraine');
+
+INSERT INTO student (university_id, first_name, last_name, section) VALUES (1, 'Peter', 'Petrenko', 'Maths');
+INSERT INTO student (university_id, first_name, last_name, section) VALUES (1, 'Maxim', 'Maxymenko', 'Physics');
+INSERT INTO student (university_id, first_name, last_name, section) VALUES (1, 'Roman', 'Romanenko', 'Chemistry');
